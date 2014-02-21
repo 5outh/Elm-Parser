@@ -181,4 +181,4 @@ mulOp = ( symb "*" >> returnP (*) ) +++ ( symb "/" >> returnP (div) )
 -- example = parse expr "1+1"
 
 -- example main function
-main = asText <| parse (space >> string "hell") "     hello!"
+-- main = asText <| parse (space >> string "hell") "     hello!"
